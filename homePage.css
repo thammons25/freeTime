@@ -1,0 +1,95 @@
+
+/*THIS IS THE STYLING FOR THE HOME PAGE, ./homeOne.php */
+body {
+	font-family: 'raleway', sans-serif;
+	background-color: #F2F2F2; 
+	color:  #666666;
+}
+
+form {
+	margin: 25px;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	font-family: 'raleway', sans-serif;
+	border: 1px solid #D8D8D8;
+	background-color: white;
+}
+
+#loginHeader {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	color:  #666666;
+	font-size: 32px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	margin: 0px;
+	margin: 25px;
+}
+
+.loginInfo {
+	width: 25%;
+	margin-left: 37.5%;
+	margin-right: 37.5%;
+}
+
+textarea {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	border: 1px solid #D8D8D8;
+	width: 50%;
+	height: 40px;
+	margin: 8px 25%;
+	padding: 10px;
+}
+
+#loginButton {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	background-color: #666666;
+	text-transform: uppercase;
+	color: white;
+	border: none;
+	height: 40px;
+	width: 24%;
+	float: left;
+	margin: 8px 1% 0px 25%;
+	
+}
+
+#makeUser {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	background-color: #666666;
+	color: white;
+	border: none;
+	height: 40px;
+	text-transform: uppercase;
+	width: 24%;
+	float: left;
+	margin: 8px 25% 0px 1%;
+}
+
+#loginButton:hover, #makeUser:hover {
+	background-color: #79D0CC;
+}
+
+/*****************************
+Footer
+*****************************/
+
+footer {
+	clear: both;
+	margin-top: 225px;
+	text-align: center;
+}
+
+footer p {
+	color: #3B3B3B;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: .2em;
+
+}
