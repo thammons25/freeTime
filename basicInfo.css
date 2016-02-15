@@ -1,0 +1,114 @@
+
+body {
+  font-family: 'raleway', sans-serif;
+  background-color: #F2F2F2; 
+  color:  #666666;
+ }
+ 
+ header {
+  text-align: left;
+  margin: 25px 25px 25px 100px;
+ }  
+ 
+ h1 {
+  font-weight: 500;
+ }
+ 
+  h2 {
+    font-style: 'Raleway', sans-serif;
+    font-weight: 100;
+     font-size: 40px;
+    font-size: 32px;
+    text-align: center;
+    padding: 15px;
+    letter-spacing: .05em;
+  border-bottom: 1px solid #D8D8D8;
+    margin: 0px;
+  background-color: #666666;
+  color: white;
+  }
+  
+  form {
+    background-color: #ffffff; 
+    font-family: 'raleway', sans-serif;
+    border: 1px solid #D8D8D8;
+    padding-bottom: 50px;
+    margin: 25px;
+  }
+  
+ .formObject {
+  padding-top: 30px;
+ }
+ 
+ #topForm {
+  margin-top: 30px;
+ }
+ 
+ #gender {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    width: 50%;
+   height: 40px;
+   margin: 15px 25%;
+   height: 30px;
+   margin: 8px 25%;
+  }
+  
+ #birthday {
+   width: 50%;
+   height: 40px;
+   margin: 8px 25%;  
+ }
+  
+  textarea {
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid #D8D8D8;
+    width: 50%;
+    height: 40px;
+   margin: 15px 25%;
+   margin: 8px 25%;
+    padding: 10px;
+  }
+  
+ .title {
+   float: left;
+   padding-right: 10px;
+ }
+ 
+ #submit {
+   font-family: 'Raleway', sans-serif;
+   font-size: 15px;
+   background-color: #666666;
+   color: white;
+   border: none;
+   height: 40px;
+   width: 25%;
+   margin-left: 25%;
+   margin-right: 50%;  
+   text-transform: uppercase;
+ }
+ 
+ #submit:hover {
+   background-color: #79D0CC;
+ }
+
+
+ /*****************************
+Footer
+*****************************/
+
+footer {
+  clear: both;
+  margin: 50px;
+  text-align: center;
+}
+
+footer p {
+  color: #3B3B3B;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: .2em;
+
+}
