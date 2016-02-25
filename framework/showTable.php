@@ -2,7 +2,7 @@
 
 
 <?php
-	$myConnect = mysqli_connect( "localhost:3306" , "root" , "new_password" , "Freetime" );
+	$myConnect = mysqli_connect( "localhost:3306" , "SQL LOGIN" , "SQL PWORD" , "Freetime" );
 	if( !($myConnect) )
 	{
 		die( "FAILED<br />" . mysqli_connect_error() );
