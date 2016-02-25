@@ -1,95 +1,176 @@
 
 /*THIS IS THE STYLING FOR THE HOME PAGE, ./homeOne.php */
-body {
-	font-family: 'raleway', sans-serif;
-	background-color: #F2F2F2; 
-	color:  #666666;
+
+
+/*****************************
+Header
+*****************************/
+
+#header {
+	padding-top: 20px;
 }
 
-form {
-	margin: 25px;
-	padding-top: 50px;
-	padding-bottom: 100px;
-	font-family: 'raleway', sans-serif;
-	border: 1px solid #D8D8D8;
-	background-color: white;
-}
-
-#loginHeader {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 500;
-	color:  #666666;
-	font-size: 32px;
+#pageTitle {
+	width: 60%;
+	display: block;
+	float: left;
 	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: .05em;
-	margin: 0px;
-	margin: 25px;
-}
-
-.loginInfo {
-	width: 25%;
-	margin-left: 37.5%;
-	margin-right: 37.5%;
-}
-
-textarea {
-	font-family: 'Raleway', sans-serif;
-	font-size: 15px;
-	border: 1px solid #D8D8D8;
-	width: 50%;
-	height: 40px;
-	margin: 8px 25%;
-	padding: 10px;
-}
-
-#loginButton {
-	font-family: 'Raleway', sans-serif;
-	font-size: 15px;
-	background-color: #666666;
-	text-transform: uppercase;
 	color: white;
-	border: none;
-	height: 40px;
-	width: 24%;
-	float: left;
-	margin: 8px 1% 0px 25%;
-	
 }
 
-#makeUser {
-	font-family: 'Raleway', sans-serif;
-	font-size: 15px;
-	background-color: #666666;
-	color: white;
-	border: none;
-	height: 40px;
-	text-transform: uppercase;
-	width: 24%;
-	float: left;
-	margin: 8px 25% 0px 1%;
-}
-
-#loginButton:hover, #makeUser:hover {
-	background-color: #79D0CC;
+#pageTitle h1 {
+	font-size: 36px;
 }
 
 /*****************************
-Footer
+Sign in form
 *****************************/
 
-footer {
-	clear: both;
-	margin-top: 225px;
-	text-align: center;
+
+#signInForm {
+	display: block;
+	float: left;
+	width: 40%;
 }
 
-footer p {
-	color: #3B3B3B;
-	font-family: 'Raleway', sans-serif;
-	font-size: 12px;
-	text-transform: uppercase;
-	font-weight: 400;
-	letter-spacing: .2em;
+#signInForm p {
+	margin: 5px 0px;
+}
 
+#signInForm input {
+	width: 100%;
+	padding: 10px;
+}
+
+#existingUsername, #existingPassword, #existingSubmit {
+	display: block;
+	float: left;
+}
+
+#existingUsername {
+	width: 35%;
+	margin: 2.5% 2.5% 2.5% 5%;
+}
+
+#existingPassword {
+	width: 35%;
+	margin: 2.5% 2.5% 2.5% 0%;
+}
+
+#existingSubmit {
+	width: 15%;
+	margin: 2.5% 5% 2.5% 0%;
+}
+
+#signInForm {
+	color: white;
+}
+
+#existingUsername input, #existingPassword input {
+	border: none;
+}
+
+#existingSubmit input {
+	width: 100%;
+	margin-top: 25px;
+	background-color: white;
+	border: none;
+	border-radius: 25px;
+	font-family: 'raleway', sans-serif;
+	font-size: 16px;
+	color: #79D0CC;
+	border: 1px solid #79D0CC;
+}
+
+#existingSubmit input:hover {
+	background-color: #79D0CC;
+	color: white;
+	border: 1px solid white;
+}
+
+/*****************************
+About Free Time
+*****************************/
+
+#aboutFreeTime {
+	display: block;
+	float: left; 
+	width: 50%;
+	padding: 5%;
+}
+
+#aboutFreeTime h1 {
+	font-size: 60px;
+	color: white;
+	margin: 25px 0px 0px 0px;
+}
+
+#aboutFreeTime h2 {
+	color: white;
+	margin-bottom: 25px;
+}
+
+/*****************************
+Sign Up 
+*****************************/
+
+#signUpForm {
+	display: block;
+	float: left;
+	width: 30%;
+	margin: 2.5%;
+	padding: 2.4%;
+	background-color: white;
+	border-radius: 20px;
+	border: 1px solid #D8D8D8;
+}
+
+#signUpForm h2 {
+	text-align: center;
+	color: #BDBDBD;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+#signUpForm p {
+	color: #BDBDBD;
+}
+
+#firstName, #lastName {
+	display: block;
+	float: left;
+	width: 50%;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+#email, #username {
+	border-bottom: 1px solid #D8D8D8;
+}
+
+#signUpForm textarea {
+	width: 100%;
+	margin-top: 10px;
+	font-family: 'raleway', 'sans-serif';
+	font-size: 14px;
+	padding: 20px 0px 0px 20px;
+	border: none;
+}
+
+#signUp {
+	margin-top: 10px;
+}
+
+#signUp input {
+	border: none;
+	border-radius: 25px;
+	font-family: 'raleway', sans-serif;
+	font-size: 16px;
+	background-color: #79D0CC;
+	color: white;
+	padding: 10px;
+	border: 1px solid #79D0CC;
+}
+
+#signUp input:hover {
+	background-color: white;
+	color: #79D0CC;
 }
