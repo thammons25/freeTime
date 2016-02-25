@@ -16,36 +16,28 @@
 		</script>		
 	</head>
 	<body>
-		<div id = "wholePage">
-			<h1 id = "loginHeader"> Welcome To Crazy Town </h1>
-			<form method = "post" action = "#" >
-				<div id = "loginBox">
-					<div>
-		 				<textarea name="username" placeholder="Username"></textarea>	
-		 			</div>
-		 			<div>
-		 				<textarea name="password" placeholder="Password"></textarea>	
-		 			</div>
-					<div class="homeButtons">
-						<input type = "submit" value = "LOG IN" id="loginButton" />
-					</div>
-					<div class="homeButtons">
-						<input type = "submit" value = "NOT A USER YET?" formmethod = "post" formaction = "./basicInfo.php" id="makeUser"/>
-					</div>
-				</div>
+		<div id="container">
+			<div id="header">
+				<h1>Hello, World!</h1>	
+			</div>  
+			<!-- Heading end -->
+			<div id="signInForm">
+			  	<form action="###" method="post" id="###">
+				 	<div>
+				 		<textarea name="userName" placeholder="Username"></textarea>	
+				 	</div>
+				 	<div>
+				 		<input type="password" name="passCode"/>
+				 	</div>	
+				 <div>
+				 	<input type="submit" name="submit" value="submit" id="submit"/>
+				 </div>	
 			</form>
+			<!-- Sign in form end -->
+			<footer>
+				<p>Thomas Hammons & Emma Phillips &copy; 2016</p>
+			</footer>
 		</div>
-
-		<?php
-		?>
-
-		<script language = "JavaScript">
-		<!--
-			
-		//-->
-		</script>
-		<footer>
-			<p>Thomas Hammons & Emma Phillips &copy; 2016</p>
-		</footer>
+		<!-- Container end -->
 	</body>
 </html>
