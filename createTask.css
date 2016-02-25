@@ -1,0 +1,50 @@
+
+
+#container {
+	background: linear-gradient(to bottom right, #00CDCD, #66EDAA); 
+}
+
+#pageTitle {
+	width: 100%;
+}
+
+#header {
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+/*****************************
+How it works
+*****************************/
+
+#howItWorks {
+	display: block;
+	float: left;
+	width: 90%;
+	margin: 0% 5%;
+}
+
+#howItWorks {
+	color: white;
+}
+
+/*****************************
+New Task
+*****************************/
+
+#newTask, #existingTask {
+	display: block;
+	float: left;
+	width: 50%;
+}
+
+#newTask {
+	background-color: white;
+}
+
+#startDate, #endDate {
+	display: block;
+	float: left;
+	width: 50%;
+}
