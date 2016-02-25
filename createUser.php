@@ -1,5 +1,6 @@
 <?php
-	$myConnect = mysqli_connect( "localhost:3306" , "root" , "new_password" , "app" );
+	// database name is Freetime, create tabbles such that everything that follows is: Freetime.something
+	$myConnect = mysqli_connect( "localhost:3306" , "root" , "new_password" , "Freetime" );
 	if( !($myConnect) )
 	{
 		die("FAILED<br />" . mysqli_connect_error() );
