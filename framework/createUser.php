@@ -1,6 +1,6 @@
 <!-- this creates new user from the updated form page. -->
 <?php
-	$myConnect = mysqli_connect( "localhost:3306" , "root" , "new_password" , "Freetime" );
+	$myConnect = mysqli_connect( "localhost:3306" , "SQL USER HERE" , "SQL PWORD HERE" , "Freetime" );
 	if( !($myConnect) )
 	{
 		die("FAILED<br />" . mysqli_connect_error() );
