@@ -1,3 +1,4 @@
+
 <!-- THIS IS THE FIRST PAGE SOMEONE WOULD ENCOUNTER  -->
 <!-- IF YOU ARE NOT YET A REGISTERED USER THEN IT WILL BRING YOU TO A PAGE THAT WILL ASK YOU TO FILL OUT SOME INFO -->
 <!-- CSS: ./homeOne.css -->
@@ -18,7 +19,7 @@
 		<div id="container">
 			<div id="header">
 				<div id="pageTitle">
-					<h1>Welcome to FreeTime!</h1>	
+					<h1>Welcome to <strong>FreeTime</strong>!</h1>	
 				</div>
 				<div id="signInForm">
 			  		<form action="###" method="post" id="###">
@@ -41,12 +42,12 @@
 			<!-- Header end -->
 			<div id="homePageContent">
 				<div id ="aboutFreeTime">
-					<h1>Meet up with<br />your groups<h1/>
+					<h1>Meet up with<br />your groups.<h1/>
 					<h2>Compare availibility and see what<br /> times work for everyone.</h2>	
 				</div>
 				<!-- About section end -->
 				<div id="signUpForm">
-					<h2>REGISTER NEW ACCOUNT</h2>
+					<h2>Sign Up for FreeTime</h2>
 				  	<form action="###" method="post" id="###">
 				  		<div id="firstName">
 					 		<textarea name="firstName" placeholder="First Name"></textarea>	
@@ -60,7 +61,7 @@
 					 	<div id="username">
 					 		<textarea name="userName" placeholder="Username"></textarea>	
 					 	</div>
-					 	<div>
+					 	<div id="password">
 					 		<p>Password:</p>
 					 		<input type="password" name="passCode"/>
 					 	</div>	
@@ -72,6 +73,8 @@
 				</div>	
 			<!-- Content end -->
 			<footer>
+				<a class="resume" href="facebook.com"><img src="./resume.png"/></a>
+				<a class="resume" href="facebook.com"><img src="./resume.png"/></a>
 				<p>Thomas Hammons & Emma Phillips &copy; 2016</p>
 			</footer>
 		</div>
