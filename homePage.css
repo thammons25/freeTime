@@ -1,25 +1,10 @@
-
-/*THIS IS THE STYLING FOR THE HOME PAGE, ./homeOne.php */
-
-
 /*****************************
 Header
 *****************************/
 
-#header {
-	padding-top: 20px;
-}
 
 #pageTitle {
 	width: 60%;
-	display: block;
-	float: left;
-	text-align: center;
-	color: white;
-}
-
-#pageTitle h1 {
-	font-size: 36px;
 }
 
 /*****************************
