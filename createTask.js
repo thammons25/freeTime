@@ -1,4 +1,3 @@
-
 var r,k = 0;
 var allDays = new Array();
 while( k < 31 )
