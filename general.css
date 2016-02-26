@@ -13,12 +13,35 @@ body {
   color:  #666666; 
   width: 100%;
   margin: 0;
-  background-color: #79D0CC;
+  background: linear-gradient(to bottom right, #79D0CC, #359792); 
 }
 
-h1, h2 {
+h1, h2, h3 {
 	font-weight: 400;
 }
+
+
+
+/*****************************
+Header
+*****************************/
+
+#header {
+	padding-top: 20px;
+}
+
+#pageTitle {
+	display: block;
+	float: left;
+	text-align: center;
+	color: white;
+}
+
+#pageTitle h1 {
+	font-size: 40px;
+}
+
+
 
 /*****************************
 Footer
@@ -28,6 +51,7 @@ footer {
 	clear: both;
 	text-align: center;
 	padding: 15px;
+	margin-top: 250px;
 }
 
 footer p {
@@ -36,4 +60,13 @@ footer p {
 	text-transform: uppercase;
 	font-weight: 400;
 	letter-spacing: .2em;
+}
+
+footer img {
+	height: 35px;
+	width: 35px;
+}
+
+.resume {
+	margin: 2.5px;
 }
