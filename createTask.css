@@ -1,9 +1,5 @@
 
 
-#container {
-	background: linear-gradient(to bottom right, #00CDCD, #66EDAA); 
-}
-
 #pageTitle {
 	width: 100%;
 }
@@ -12,6 +8,16 @@
 	display: block;
 	float: left;
 	width: 100%;
+	background-color: white;
+}
+
+#header h1 {
+	color:  #666666; 
+	font-family: 'League Spartan';
+	text-transform: uppercase; 
+	letter-spacing: .175em;
+	text-align: left;
+	margin-left: 50px;
 }
 
 /*****************************
@@ -22,12 +28,22 @@ How it works
 	display: block;
 	float: left;
 	width: 90%;
-	margin: 0% 5%;
+	margin: 50px 5% 75px 5%;
 }
 
 #howItWorks {
 	color: white;
 }
+
+#howItWorks h2 {
+	font-size: 36px;
+	text-align: center;
+}
+
+#howItWorks p {
+	text-align: center;
+}
+
 
 /*****************************
 New Task
@@ -36,15 +52,37 @@ New Task
 #newTask, #existingTask {
 	display: block;
 	float: left;
-	width: 50%;
-}
-
-#newTask {
+	width: 37.5%;
+	padding: 25px 2.5%;	
+	margin: 0%;
 	background-color: white;
 }
 
-#startDate, #endDate {
-	display: block;
-	float: left;
-	width: 50%;
+#newTask {
+	padding-left: 10%;
 }
+
+#existingTask {
+	padding-right: 10%;
+}
+
+#newTask h2, #existingTask h2 {
+	font-size: 32px;
+	margin: 25px 0px;
+	letter-spacing: .05em;
+	color:  #666666; 
+}
+
+#endDate {
+	margin-bottom: 20px;
+}
+
+#newTask input {
+	font-family: 'raleway', 'sans-serif';
+	font-size: 14px;
+	padding: 10px;
+	color: #666666; 
+	border: 1px solid #D8D8D8;
+	background-color: white;
+}
+
