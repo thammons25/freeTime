@@ -7,6 +7,10 @@ Header
 	width: 60%;
 }
 
+strong {
+	font-weight: bold;
+}
+
 /*****************************
 Sign in form
 *****************************/
@@ -19,7 +23,12 @@ Sign in form
 }
 
 #signInForm p {
-	margin: 5px 0px;
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: .1em;
+	margin: 25px 0px 5px 0px;
 }
 
 #signInForm input {
@@ -33,22 +42,19 @@ Sign in form
 }
 
 #existingUsername {
-	width: 35%;
-	margin: 2.5% 2.5% 2.5% 5%;
+	width: 32.5%;
+	margin-right: 2.5%;
 }
 
 #existingPassword {
-	width: 35%;
-	margin: 2.5% 2.5% 2.5% 0%;
+	width: 32.5%;
+	margin-right: 2.5%;
 }
 
 #existingSubmit {
-	width: 15%;
-	margin: 2.5% 5% 2.5% 0%;
-}
-
-#signInForm {
-	color: white;
+	width: 17.5%;
+	margin-right: 12.5%;
+	margin-top: 24px;
 }
 
 #existingUsername input, #existingPassword input {
@@ -56,21 +62,14 @@ Sign in form
 }
 
 #existingSubmit input {
-	width: 100%;
 	margin-top: 25px;
-	background-color: white;
 	border: none;
-	border-radius: 25px;
 	font-family: 'raleway', sans-serif;
-	font-size: 16px;
-	color: #79D0CC;
-	border: 1px solid #79D0CC;
-}
-
-#existingSubmit input:hover {
-	background-color: #79D0CC;
-	color: white;
-	border: 1px solid white;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 14px;
+	background-color: white;
+	padding: 8px;
 }
 
 /*****************************
@@ -86,13 +85,15 @@ About Free Time
 
 #aboutFreeTime h1 {
 	font-size: 60px;
+	font-weight: 500;
 	color: white;
-	margin: 25px 0px 0px 0px;
+	margin: 25px;
 }
 
 #aboutFreeTime h2 {
 	color: white;
-	margin-bottom: 25px;
+	margin: 25px;
+	font-weight: 300;
 }
 
 /*****************************
@@ -102,42 +103,57 @@ Sign Up
 #signUpForm {
 	display: block;
 	float: left;
-	width: 30%;
-	margin: 2.5%;
-	padding: 2.4%;
-	background-color: white;
-	border-radius: 20px;
-	border: 1px solid #D8D8D8;
+	width: 35%;
+	margin: 25px 0px 0px 0px;
+	padding: 0px;
+	color: white;
 }
 
 #signUpForm h2 {
 	text-align: center;
-	color: #BDBDBD;
-	border-bottom: 1px solid #D8D8D8;
+	font-size: 38px;
+	font-weight: 700;
+	margin: 25px 0px 10px 0px;
 }
 
-#signUpForm p {
-	color: #BDBDBD;
-}
-
-#firstName, #lastName {
+#firstName {
 	display: block;
 	float: left;
-	width: 50%;
-	border-bottom: 1px solid #D8D8D8;
+	width: 48.5%;
+	margin-right: 1.5%;
 }
-
-#email, #username {
-	border-bottom: 1px solid #D8D8D8;
+#lastName {
+	display: block;
+	float: left;
+	width: 48.5%;
+	margin-left: 1.5%;
 }
 
 #signUpForm textarea {
 	width: 100%;
-	margin-top: 10px;
 	font-family: 'raleway', 'sans-serif';
-	font-size: 14px;
-	padding: 20px 0px 0px 20px;
-	border: none;
+	font-size: 16px;
+	border: 2px solid white;
+	margin-bottom: 10px; 
+	background-color: transparent;
+	height: 35px;
+	padding: 5px 0px 5px 10px;
+}
+
+#password p {
+	margin: 0px 0px 5px 0px;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: .15em;
+}
+
+#password input {
+	background-color: transparent;
+	width: 100%;
+	height: 35px;
+	padding: 5px 0px 5px 10px;
+	font-size: 16px;
+	border: 2px solid white;
 }
 
 #signUp {
@@ -145,17 +161,13 @@ Sign Up
 }
 
 #signUp input {
+	width: 100%;
 	border: none;
-	border-radius: 25px;
 	font-family: 'raleway', sans-serif;
 	font-size: 16px;
-	background-color: #79D0CC;
-	color: white;
-	padding: 10px;
-	border: 1px solid #79D0CC;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+	background-color: white;
+	padding: 7px;
 }
 
-#signUp input:hover {
-	background-color: white;
-	color: #79D0CC;
-}
