@@ -1,4 +1,3 @@
-
 <!-- THIS IS THE FIRST PAGE SOMEONE WOULD ENCOUNTER  -->
 <!-- IF YOU ARE NOT YET A REGISTERED USER THEN IT WILL BRING YOU TO A PAGE THAT WILL ASK YOU TO FILL OUT SOME INFO -->
 <!-- CSS: ./homeOne.css -->
@@ -19,7 +18,7 @@
 		<div id="container">
 			<div id="header">
 				<div id="pageTitle">
-					<h1>Welcome to Free Time!</h1>	
+					<h1>Welcome to FreeTime!</h1>	
 				</div>
 				<div id="signInForm">
 			  		<form action="###" method="post" id="###">
