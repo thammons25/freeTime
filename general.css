@@ -1,5 +1,6 @@
 
 
+
 /*****************************
 General 
 *****************************/
@@ -10,10 +11,9 @@ body {
 
 #container {
   font-family: 'raleway', sans-serif;
-  color:  #666666; 
   width: 100%;
   margin: 0;
-  background: linear-gradient(to bottom right, #79D0CC, #359792); 
+  background: linear-gradient(to bottom right, #66CCCC, #00688B); 
 }
 
 h1, h2, h3 {
@@ -26,10 +26,6 @@ h1, h2, h3 {
 Header
 *****************************/
 
-#header {
-	padding-top: 20px;
-}
-
 #pageTitle {
 	display: block;
 	float: left;
@@ -38,7 +34,7 @@ Header
 }
 
 #pageTitle h1 {
-	font-size: 40px;
+	font-size: 38px;
 }
 
 
