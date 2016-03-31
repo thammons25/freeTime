@@ -1,5 +1,13 @@
+
+/*****************************
+Page Title
+*****************************/
+
 #pageTitle {
+	display: block;
+	float: left;
 	width: 60%;
+
 }
 
 strong {
@@ -18,7 +26,6 @@ Sign in form
 }
 
 #signInForm p {
-	color: white;
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: 400;
@@ -42,14 +49,14 @@ Sign in form
 }
 
 #existingPassword {
-	width: 32.5%;
+	width: 30%;
 	margin-right: 2.5%;
 }
 
 #existingSubmit {
-	width: 17.5%;
+	width: 20%;
 	margin-right: 12.5%;
-	margin-top: 24px;
+	margin-top: 20px;
 }
 
 #existingUsername input, #existingPassword input {
