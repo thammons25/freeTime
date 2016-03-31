@@ -1,0 +1,163 @@
+#pageTitle {
+	width: 60%;
+}
+
+strong {
+	font-weight: bold;
+}
+
+/*****************************
+Sign in form
+*****************************/
+
+
+#signInForm {
+	display: block;
+	float: left;
+	width: 40%;
+}
+
+#signInForm p {
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: .1em;
+	margin: 25px 0px 5px 0px;
+}
+
+#signInForm input {
+	width: 100%;
+	padding: 10px;
+}
+
+#existingUsername, #existingPassword, #existingSubmit {
+	display: block;
+	float: left;
+}
+
+#existingUsername {
+	width: 32.5%;
+	margin-right: 2.5%;
+}
+
+#existingPassword {
+	width: 32.5%;
+	margin-right: 2.5%;
+}
+
+#existingSubmit {
+	width: 17.5%;
+	margin-right: 12.5%;
+	margin-top: 24px;
+}
+
+#existingUsername input, #existingPassword input {
+	border: none;
+}
+
+#existingSubmit input {
+	margin-top: 25px;
+	border: none;
+	font-family: 'raleway', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+	font-size: 14px;
+	background-color: white;
+	padding: 8px;
+}
+
+/*****************************
+About Free Time
+*****************************/
+
+#aboutFreeTime {
+	display: block;
+	float: left; 
+	width: 50%;
+	padding: 5%;
+}
+
+#aboutFreeTime h1 {
+	font-size: 60px;
+	font-weight: 500;
+	color: white;
+	margin: 25px 50px;
+}
+
+#aboutFreeTime h2 {
+	color: white;
+	margin: 25px 50px;
+	font-weight: 300;
+}
+
+/*****************************
+Sign Up 
+*****************************/
+
+#signUpForm {
+	display: block;
+	float: left;
+	width: 35%;
+	margin: 25px 0px 0px 0px;
+	padding: 0px;
+}
+
+#signUpForm h2 {
+	text-align: center;
+	font-size: 38px;
+	font-weight: 700;
+	margin: 25px 0px 10px 0px;
+}
+
+#firstName {
+	display: block;
+	float: left;
+	width: 48.5%;
+	margin-right: 1.5%;
+}
+
+#lastName {
+	display: block;
+	float: left;
+	width: 48.5%;
+	margin-left: 1.5%;
+}
+
+#signUpForm textarea, #password input {
+	width: 100%;
+	font-family: 'raleway', 'sans-serif';
+	font-size: 16px;
+	border: 2px solid white;
+	margin-bottom: 10px; 
+	background-color: transparent;
+	height: 35px;
+	padding: 5px 0px 5px 10px;
+	letter-spacing: .1em;
+}
+
+::-webkit-input-placeholder {
+    color:  white;
+}
+
+:-moz-placeholder {
+    color: white;
+}
+
+#signUp input {
+	width: 100%;
+	border: none;
+	font-family: 'raleway', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+	background-color: white;
+	padding: 7px;
+}
+
+#signUp input:hover {
+	background-color: pink;
+	color: white;
+	border: 2px solid white;
+	padding: 5px;
+}

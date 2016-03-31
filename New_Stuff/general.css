@@ -1,0 +1,58 @@
+body {
+	background-color: #F2F2F2;
+}
+
+#container {
+  font-family: 'raleway', sans-serif;
+  color: white;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(to bottom right, #66CCCC, #00688B); 
+}
+
+h1, h2, h3 {
+	font-weight: 400;
+}
+
+
+/*****************************
+Header
+*****************************/
+
+#pageTitle {
+	display: block;
+	float: left;
+	text-align: center;
+}
+
+#pageTitle h1 {
+	font-size: 38px;
+}
+
+/*****************************
+Footer
+*****************************/
+
+footer {
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	
+}
+
+footer p {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: .2em;
+}
+
+footer img {
+	height: 35px;
+	width: 35px;
+}
+
+.resume {
+	margin: 2.5px;
+}
