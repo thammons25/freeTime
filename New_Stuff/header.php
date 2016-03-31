@@ -17,6 +17,7 @@
 		<title> Freetime </title>
 		<link rel = "stylesheet" type = "text/css" href ="./general.css" />
 		<link rel = "stylesheet" type = "text/css" href = "./homePage.css" />
+		<link rel = "stylesheet" type = "text/css" href = "./mainContent.css" />
 		<link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,700,600,800,900'
 		 rel='stylesheet' type='text/css'>
 		<!-- THIS JAVASCRIPT FUNCTION IS INCLUDED BECAUSE THERE IS A LAG BETWEEN WHERE A PAGE ENDS UP AFTER A 
