@@ -1,8 +1,8 @@
 <?php
-	$host = "localhost:3306";
-	$user = "root";
-	$pass = "qweasd";
-	$db = "freetime";
+	$host = "";
+	$user = "";
+	$pass = "";
+	$db = "";
 
 	$myConn = mysqli_connect( $host , $user , $pass , $db );
 	if( !$myConn )
